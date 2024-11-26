@@ -16,55 +16,63 @@
     <header>
         <div class="container py-5 content ">
             <div class="row ">
-                <div class="col border pokeContainer p-4">
+                <div class="col    pokeContainer p-4">
                     <h2 class="heading">Poke Finder <span><img src="./src/pikachu.png" alt="" width="50px"></span></h2>
-                    <!-- Poke Form -->
-                    <div class="row pokeForm py-3 border">
+                    
+                    <div class="row pokeForm py-3   ">
                         <div class="col-12 col-lg-8 text-start my-2">
 
-                                <input type="text" id="disabledTextInput" class="form-control"
-                                    placeholder="Pokemon name">
+                            <input type="text" id="disabledTextInput" class="form-control js-pokemon-name"
+                                placeholder="Pokemon name">
                         </div>
-                        
+
                         <div class="col-12 col-lg-4 my-2">
-                            
-                                <button class="btn btn-success w-100">Get Pokemon</button>
-                            
+
+                            <button class="btn btn-success w-100 js-pokemon-btn">Get Pokemon</button>
+
                         </div>
                     </div>
-                    <!-- Images / spirites -->
-                    <div class="row border my-3">
-                        <h4>Pokemon Details</h4>
-                        <img src="./src/pikachu.png" alt="pokeimage" class="img-fluid pokeImage d-block mx-auto">
+                    <div class="container    my-3 js-poke-container">
+                        
+                        <!-- <div class="row    my-3">
+                            <h4>Pokemon Details</h4>
+                            <img src="./src/pikachu.png" alt="pokeimage" class="img-fluid pokeImage d-block mx-auto">
+                        </div> -->
+
+                       
+                        <!-- <div class="row pokedetils my-2   ">
+
+                            <div class="col-lg-4 col-12 bg-danger p-2">
+                                <p>Pokemon Name:</p>
+                                <p>Pikachu</p>
+                            </div>
+                            <div class="col-lg-4 col-12 p-2 bg-warning">
+                                <p>Type:</p>
+                                <p>Electric</p>
+                            </div>
+                            <div class="col-lg-4 col-12 p-2 bg-secondary">
+                                <p>Weight:</p>
+                                <p>40</p>
+                            </div>
+                        </div> -->
+                        
+                        <!-- <div class="row   ">
+                            <div class="col-lg-4 bg-gradient bg-info">
+                                <p>Stat 1:</p>
+                                <p>Electric</p>
+                            </div>
+                            <div class="col-lg-4 bg-gradient bg-success">
+                                <p>Stat 2:</p>
+                                <p>Electric</p>
+                            </div>
+                            <div class="col-lg-4 bg-gradient bg-danger">
+                                <p>Stat 3:</p>
+                                <p>Electric</p>
+                            </div>
+
+                        </div> -->
                     </div>
 
-                    <!-- Poke Details -->
-                    <div class="row pokedetils my-2 border">
-                        
-                        <div class="col-lg-4 col-12 bg-danger p-2">
-                            <p>Pokemon Name:</p>
-                            <p>Pikachu</p>
-                        </div>
-                        <div class="col-lg-4 col-12 p-2 bg-warning">
-                            <p>Type:</p>
-                            <p>Electric</p>
-                        </div>
-                        <div class="col-lg-4 col-12 p-2 bg-secondary">
-                            <p>Weight:</p>
-                            <p>40</p>
-                        </div>
-                    </div>
-                    <!-- abilities and moves -->
-                    <div class="row border">
-                        <div class="col-lg-4 bg-gradient bg-info"><p>Stat 1:</p>
-                            <p>Electric</p></div>
-                        <div class="col-lg-4 bg-gradient bg-success"><p>Stat 2:</p>
-                            <p>Electric</p></div>
-                        <div class="col-lg-4 bg-gradient bg-danger"><p>Stat 3:</p>
-                            <p>Electric</p></div>
-                        
-                    </div>
-                    
                 </div>
             </div>
         </div>
