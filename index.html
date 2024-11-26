@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Poke Finder</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="shortcut icon" href="./src/pikachu.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container py-5 content ">
+            <div class="row ">
+                <div class="col border pokeContainer p-4">
+                    <h2 class="heading">Poke Finder <span><img src="./src/pikachu.png" alt="" width="50px"></span></h2>
+                    <!-- Poke Form -->
+                    <div class="row pokeForm py-3 border">
+                        <div class="col-12 col-lg-8 text-start my-2">
+
+                                <input type="text" id="disabledTextInput" class="form-control"
+                                    placeholder="Pokemon name">
+                        </div>
+                        
+                        <div class="col-12 col-lg-4 my-2">
+                            
+                                <button class="btn btn-success w-100">Get Pokemon</button>
+                            
+                        </div>
+                    </div>
+                    <!-- Images / spirites -->
+                    <div class="row border my-3">
+                        <h4>Pokemon Details</h4>
+                        <img src="./src/pikachu.png" alt="pokeimage" class="img-fluid pokeImage d-block mx-auto">
+                    </div>
+
+                    <!-- Poke Details -->
+                    <div class="row pokedetils my-2 border">
+                        
+                        <div class="col-lg-4 col-12 bg-danger p-2">
+                            <p>Pokemon Name:</p>
+                            <p>Pikachu</p>
+                        </div>
+                        <div class="col-lg-4 col-12 p-2 bg-warning">
+                            <p>Type:</p>
+                            <p>Electric</p>
+                        </div>
+                        <div class="col-lg-4 col-12 p-2 bg-secondary">
+                            <p>Weight:</p>
+                            <p>40</p>
+                        </div>
+                    </div>
+                    <!-- abilities and moves -->
+                    <div class="row border">
+                        <div class="col-lg-4 bg-gradient bg-info"><p>Stat 1:</p>
+                            <p>Electric</p></div>
+                        <div class="col-lg-4 bg-gradient bg-success"><p>Stat 2:</p>
+                            <p>Electric</p></div>
+                        <div class="col-lg-4 bg-gradient bg-danger"><p>Stat 3:</p>
+                            <p>Electric</p></div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
